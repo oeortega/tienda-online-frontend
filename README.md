@@ -22,9 +22,6 @@ https://nodejs.org/es/
 
 ```
 ```
-https://github.com/RicardoASalas/tiendaOnline-backend.git (Repositorio donde se encuentra el Back del proyecto)
-https://github.com/RodXIII/tienda-online-frontend.git (Repositorio donde se encuentra el Front del proyecto)
-```
 
 ### Instalación 🔧
 
@@ -66,10 +63,6 @@ Para desarrollar este proyecto se han utilizado las siguientes tecnologías:
 * [Java Script](https://www.javascript.com/) - Lenguaje de desarrollo web
 * [Git](https://git-scm.com/) - Sistema de control de versiones
 
-## Autores ✒️
-
-* **Ricardo Salas** - *Desarrollador* - [RicardoASalas](https://github.com/RicardoASalas)
-* **Rodrigo Navarro** - *Desarollador* - [RodXIII](https://github.com/RodXIII)
 
 ## Licencia 📄
 
