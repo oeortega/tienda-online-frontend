@@ -92,7 +92,7 @@ class Item extends Component {
                         <img alt="right arrow" className='imageArrow'src="https://image.flaticon.com/icons/png/512/130/130882.png" />
                             <h4>{elemento[this.state.i].brand} </h4>
                             <h5>{elemento[this.state.i].name} </h5>
-                            <h4 className="price">{elemento[this.state.i].price} € </h4>
+                            <h4 className="price">{elemento[this.state.i].price} $ </h4>
                      
                     </div>
                    
@@ -102,7 +102,7 @@ class Item extends Component {
                         
                             <h4>{elemento[this.state.y].brand} </h4>
                             <h5>{elemento[this.state.y].name} </h5>
-                            <h4 className="price">{elemento[this.state.y].price} € </h4>
+                            <h4 className="price">{elemento[this.state.y].price} $ </h4>
                             <SimpleModal productDetails={elemento[this.state.y]} productArray={elemento} />
                       
                     </div>
@@ -113,7 +113,7 @@ class Item extends Component {
                         <img className="productImage" alt="left item " src={elemento[this.state.z].image}  />
                             <h4>{elemento[this.state.z].brand} </h4>
                             <h5>{elemento[this.state.z].name} </h5>
-                            <h4 className="price">{elemento[this.state.z].price} € </h4>
+                            <h4 className="price">{elemento[this.state.z].price} $ </h4>
                      
                     </div  >
                 </div>

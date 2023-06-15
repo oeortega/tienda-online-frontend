@@ -50,7 +50,7 @@ class Invoice extends Component {
                 <span className="invoiceP">Id: {item.id}</span>
                 <span className="invoiceP">{item.name}</span>
                 <span className="invoiceP">cuantos: {item.Invoice_Product.Quantity}</span>
-                <span className="invoiceP">Precio: {item.price}€</span>
+                <span className="invoiceP">Precio: {item.price}$</span>
             </div>
             )
             return <div className="invoiceContainer">

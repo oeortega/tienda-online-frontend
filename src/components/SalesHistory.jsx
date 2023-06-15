@@ -205,7 +205,7 @@ class SalesHistory extends Component {
                                 <div className="monthContainer">
                                     <input className="historyItems" name="month" ref={input => this.month = input} type="month" placeholder="Find Product by Id" />
                                     <button className="historyItems" onClick={() => this.findMonthTotal()}>Encontrar</button>
-                                    <h4>Ventas totales por mes: {this.state.totalMonth}€</h4>
+                                    <h4>Ventas totales por mes: {this.state.totalMonth}$</h4>
                                 </div>
                             </div>
                             <div className="yearHistoryContainer">
@@ -242,7 +242,7 @@ class SalesHistory extends Component {
                                 <div className="monthContainer">
                                     <input className="historyItems" name="month" ref={input => this.month = input} type="month" placeholder="Find Product by Id" />
                                     <button className="historyItems" onClick={() => this.findMonthTotal()}>Encontrar</button>
-                                    <h4>Ventas totales por mes: {this.state.totalMonth}€</h4>
+                                    <h4>Ventas totales por mes: {this.state.totalMonth}$</h4>
                                 </div>
                             </div>
                             <div className="yearHistoryContainer">
@@ -255,7 +255,7 @@ class SalesHistory extends Component {
                                 </div>
 
                                 <button className="historyItems" onClick={() => this.findYearTotal()}>Encontrar</button>
-                                <h4>Ventas totales por año: {this.state.totalYear}€</h4>
+                                <h4>Ventas totales por año: {this.state.totalYear}$</h4>
                                 <MDBContainer id="graph" className="graphContainer">
                                     <h3 className="mt-5">VENTAS POR AÑO</h3>
                                     <Bar id="graph" data={this.state.dataBar} options={this.state.barChartOptions} />

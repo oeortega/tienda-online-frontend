@@ -51,7 +51,7 @@ class Purchase extends Component {
                 <span className="purchaseDetail">{item.name}</span>
                 <span className="purchaseDetail">{item.brand}</span>
                 <span className="purchaseDetail">{item.Invoice_Product.Quantity}</span>
-                <span className="purchaseDetail">{item.price}€</span>
+                <span className="purchaseDetail">{item.price}$</span>
             <span className="purchaseDetail">{date.getDay()}-{date.getMonth()}-{date.getFullYear()}</span>
             </div>
             ) 

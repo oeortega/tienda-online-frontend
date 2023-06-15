@@ -26,7 +26,7 @@ class ProductList extends Component{
             <img className="details" src={element.image}/>
             <h3 className="details">{element.name}</h3>
             <h4 className="details">{element.brand}</h4>
-            <h1 id="priceTag" className="details">{element.price}€</h1>
+            <h1 id="priceTag" className="details">{element.price}$</h1>
             <SimpleModal productDetails={element} productArray={itemList} />
             <button onClick={()=>this.addBasket(element)}>Añadir al carrito</button>
         </div>
@@ -39,7 +39,7 @@ class ProductList extends Component{
                 <img className="details" src={element.image}/>
                 <h3 className="details">{element.name}</h3>
                 <h4 className="details">{element.brand}</h4>
-                <h1 id="priceTag" className="details">{element.price}€</h1>
+                <h1 id="priceTag" className="details">{element.price}$</h1>
                 <SimpleModal productDetails={element} productArray={itemList} />
                 <button onClick={()=>this.addBasket(element)}>Añadir al carrito</button>
             </div>

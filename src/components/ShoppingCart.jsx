@@ -43,7 +43,7 @@ class ProductList extends Component{
     productsObject= JSON.parse(JSON.stringify(eval('('+productsObject+')')));
 
     console.log("el objeto productos es: "+typeof(productsObject))
-    console.log("el total amount es: "+totalAmount)
+    console.log("el monto total es: "+totalAmount)
     
     axios.post('http://localhost:3001/inv/order',{
         totalAmount: totalAmount,
@@ -92,7 +92,7 @@ class ProductList extends Component{
             <img className="details" src={element.image}/>
             <h3 className="details">{element.name}</h3>
             <h4 className="details">{element.brand}</h4>
-            <h1 id="priceTag" className="details">{element.price}€</h1>
+            <h1 id="priceTag" className="details">{element.price}$</h1>
             <button className="formButton" onClick={()=>this.deleteItem(element)}>Delete Item</button>
         </div>
         )  
@@ -101,9 +101,9 @@ class ProductList extends Component{
      if(localStorage.getItem('cart')!=='[]' && localStorage.getItem('cart')){
         return (
         <div className="shoppingCartContainer">
-            <button className="formButton" onClick={()=>this.purchase()}>Buy Products</button>
+            <button className="formButton" onClick={()=>this.purchase()}>Comprar productos</button>
             <div>
-            <h3>TOTAL AMOUNT: {totalAmount}€</h3>
+            <h3>TOTAL MONTO: {totalAmount}$</h3>
         </div>
             {item}
         </div>
