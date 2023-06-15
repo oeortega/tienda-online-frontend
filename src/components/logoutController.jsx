@@ -13,22 +13,3 @@ export const logout = () =>{
             console.log('Logout OK')
         })
 }
-/* 
-axios({ method: 'get', url: 'your URL', headers: { Authorization: `Bearer ${token}` } })
-
-axios.get(
-    url,
-    {headers: {
-        "name" : "value"
-      }
-    }
-  )
-  .then((response) => {
-      var response = response.data;
-    },
-    (error) => {
-      var status = error.response.status
-    }
-  );
-
- */

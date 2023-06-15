@@ -30,7 +30,7 @@ class Home extends Component {
         return (
            
             <div>
-                <h5 className="banner">All our products are genuine and original brand new.</h5>
+                <h5 className="banner">Todos nuestros productos son genuinos y originales a estrenar.</h5>
                 <Search getProductList={this.getProductList.bind(this)} />
                 <ProductList sendList={this.state.element} />
 
@@ -47,7 +47,7 @@ class Home extends Component {
                 </div>
                 <div className="playerContainer">
                     
-                    <iframe scrolling="no" src="http://www.ricardosalas.es/" frameborder="0"></iframe>
+                    <iframe scrolling="no" src="http://www.oscarortega.es/" frameborder="0"></iframe>
                 </div>
 
             </div>

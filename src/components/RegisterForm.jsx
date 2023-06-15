@@ -59,90 +59,90 @@ class Register extends Component {
 
             <div className='registerForm'>
                 <form noValidate onSubmit={this.onSubmit}>
-                    <h1 className="h3 mb-3 font-weight-normal">Register</h1>
+                    <h1 className="h3 mb-3 font-weight-normal">Registrar</h1>
 
                     <div className="formFields">
-                        <label htmlFor="userName">Name</label>
+                        <label htmlFor="userName">Nombre</label>
                         <input
                             className="Register"
                             type="text"
                             name="userName"
-                            placeholder="Enter a user name"
+                            placeholder="Enter en nombre o usuario"
                             value={this.state.userName}
                             onChange={this.onChange}
                         />
                     </div>
                     <div className="formFields">
-                        <label htmlFor="password">Password</label>
+                        <label htmlFor="password">Contraseña</label>
                         <input
                             className="Register"
                             type="text"
                             name="password"
-                            placeholder="Enter a password"
+                            placeholder="Enter en contraseña"
                             value={this.state.password}
                             onChange={this.onChange}
                         />
                     </div>
                     <div className="formFields">
-                        <label htmlFor="email">email</label>
+                        <label htmlFor="email">Correo</label>
                         <input
                             className="Register"
                             type="text"
                             name="email"
-                            placeholder="Enter a valid email"
+                            placeholder="Enter en correo"
                             value={this.state.email}
                             onChange={this.onChange}
                         />
                     </div>
 
                     <div className="formFields">
-                        <label htmlFor="address">Address</label>
+                        <label htmlFor="address">Direccion</label>
                         <input
                             className="Register"
                             type="text"
                             name="address"
-                            placeholder="Enter an address"
+                            placeholder="Enter en direccion"
                             value={this.state.address}
                             onChange={this.onChange}
                         />
                     </div>
                     <div className="formFields">
-                        <label htmlFor="country">Country</label>
+                        <label htmlFor="country">Ciudad</label>
                         <select 
                         className="Register"
                         type="text"
                         name="country"
-                        placeholder="select a country"
+                        placeholder="selecione una ciudad"
                         value={this.state.country}
                         onChange={this.onChange}
                         >
 
-                            <option>Spain</option>
+                            <option>Valledupar</option>
 
-                            <option>China</option>
+                            <option>Santa marta</option>
 
-                            <option>France</option>
+                            <option>Barranqulla</option>
 
                         </select>
                     </div>
                     <div className="formFields">
-                        <label htmlFor="creditcard_number">Creditcard Number</label>
+                        <label htmlFor="creditcard_number">Numero de Tarjeta</label>
                         <input
                             className="Register"
                             type="text"
                             name="creditcardNumber"
-                            placeholder="Enter a creditcard number"
+                            placeholder="Enter en numero de tarjeta"
                             value={this.state.creditcardNumber}
                             onChange={this.onChange}
                         />
                     </div>
                     <div className="formFields">
-                        <label htmlFor="creditcardType">Creditcard type</label>
+                        <label htmlFor="creditcardType">Tipo de tarjeta</label>
                         <select 
                         className="Register"
                         type="text"
                         name="creditcardType"
-                        placeholder="Enter a password"
+                        placeholder="Enter a contraseña"
                         value={this.state.creditcardType}
                         onChange={this.onChange}>
 
@@ -158,7 +158,7 @@ class Register extends Component {
                     <button className="formButton"
                         type="submit"
                     >
-                        Register
+                        Registrar
                             </button>
                 </form>
     

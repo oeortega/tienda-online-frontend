@@ -87,7 +87,7 @@ class Login extends Component {
                     LOGIN
                   </h1>
                 </div>
-                <h5>Sorry, User email or Password not correct, try again</h5>
+                <h5>Lo sentimos, el correo electrónico de usuario o la contraseña no son correctos, inténtelo de nuevo</h5>
                 <div className="formFields">
                   <label htmlFor="email">E-Mail</label>
                   <input

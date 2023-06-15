@@ -21,21 +21,21 @@ export default function DisabledTabs() {
         aria-label="disabled tabs example"
       >
         <Tab label="Home" href="/" />
-        <Tab label="Register" href="/register" />
+        <Tab label="Registrar" href="/register" />
         <Tab label="Login" href="/login" />
         <Tab label="Logout" href="/logout" />
-        <Tab label="Profile" href="/profile" /> 
-        <Tab label="Shopping Cart" href="/cart" /> 
+        <Tab label="Perfil" href="/profile" /> 
+        <Tab label="Carro de compra" href="/cart" /> 
       </Tabs>
       <nav>
         <ul>
-          <li className="dropDown"><a href="#">CATEGORY</a>
+          <li className="dropDown"><a href="#">CATEGORIA</a>
             <ul>
-              <li><a href="/cat/electric-guitar">ELECTRIC GUITAR</a></li>
-              <li><a href="/cat/electric-bass">ELECTRIC BASS</a></li>
-              <li><a href="/cat/concerto-guitar">CONCERTO GUITAR</a></li>
-              <li><a href="/cat/drums">DRUMS</a></li>
-              <li><a href="/cat/keyboard">KEYBOARD</a></li>
+              <li><a href="/cat/electric-guitar">GUITARRA ELECTRICA</a></li>
+              <li><a href="/cat/electric-bass">BAJO ELÉCTRICO</a></li>
+              <li><a href="/cat/concerto-guitar">GUITARRA DE CONCIERTO</a></li>
+              <li><a href="/cat/drums">BATERÍA</a></li>
+              <li><a href="/cat/keyboard">TECLADO</a></li>
             </ul>
           </li>
       </ul>

@@ -111,7 +111,7 @@ class ProductList extends Component{
       }else{
           return(
           <div  className="shoppingCartContainer">
-              <h3>No items added to the Shopping cart</h3>
+              <h3>No se agregaron artículos al carrito de compras</h3>
           </div>
           )
       }

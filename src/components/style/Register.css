@@ -6,6 +6,7 @@
     border-radius: 5px;
    box-shadow: 2px 2px 5px #999;
    padding: 4rem;
+   background-color: aqua;
     
 }
 
@@ -14,6 +15,7 @@
     border-radius: 5px;
     height: 2.5rem;
     padding-left: 1rem;
+    
 }
 
 .formFields{

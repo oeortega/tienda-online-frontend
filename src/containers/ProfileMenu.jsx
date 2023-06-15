@@ -40,9 +40,9 @@ export default function DisabledTabs() {
         // onChange={handleChange}
         aria-label="disabled tabs example"
       >
-        <Tab label="Profile" href="/profileData" />
-        <Tab label="Invoice" href="/profile/invoice" />
-        <Tab label="Purchase History" href="/profile/purchases" />
+        <Tab label="Perfil" href="/profileData" />
+        <Tab label="Factura" href="/profile/invoice" />
+        <Tab label="Historial de compras" href="/profile/purchases" />
        </Tabs>
     </Paper>
   );

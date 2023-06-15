@@ -44,28 +44,28 @@ class Profile extends Component {
                     <ProfileMenu/>
                     <div className='profileContainer' >
                         <div className='titleTag'>
-                            <h3>{this.state.userData.userName}'s PROFILE</h3>
+                            <h3>{this.state.userData.userName}'s Perfil</h3>
                         </div>
                         <div className='dataTag'>
-                        <span className='Tag'>Name: </span><span className='data'>{this.state.userData.userName}</span>
+                        <span className='Tag'>Nombre: </span><span className='data'>{this.state.userData.userName}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>Email: </span><span className='data'>{this.state.userData.email}</span>
+                            <span className='Tag'>Correo: </span><span className='data'>{this.state.userData.email}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>Adress: </span><span className='data'>{this.state.userData.address}</span>
+                            <span className='Tag'>Direccion: </span><span className='data'>{this.state.userData.address}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>Country: </span><span className='data'>{this.state.userData.country}</span>
+                            <span className='Tag'>Ciudad: </span><span className='data'>{this.state.userData.country}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>Credit Card: </span><span className='data'>{this.state.userData.creditcardNumber}</span>
+                            <span className='Tag'>Tarjeta de credito: </span><span className='data'>{this.state.userData.creditcardNumber}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>C.C. type: </span>   <span className='data'>{this.state.userData.creditcardType}</span>
+                            <span className='Tag'>C.C. tipo: </span>   <span className='data'>{this.state.userData.creditcardType}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>Sign In Date: </span>   <span className='data'>{date.getDay()}/{date.getMonth()}/{date.getFullYear()}</span>
+                            <span className='Tag'>fecha de sesion: </span>   <span className='data'>{date.getDay()}/{date.getMonth()}/{date.getFullYear()}</span>
                         </div>   
                         
                     </div>
@@ -78,7 +78,7 @@ class Profile extends Component {
         else{
             return(
                 <div className='profileContainer'>
-                    <h4 className='data'>Sorry, you need to be loged In to check your profile</h4>
+                    <h4 className='data'>Lo sentimos, debe iniciar sesión para verificar su perfil</h4>
                 </div>
             )
         }

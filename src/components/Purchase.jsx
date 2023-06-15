@@ -62,7 +62,7 @@ class Purchase extends Component {
                 <ProfileMenu/>
                 <div className="purchaseSection">
                     
-                    <h4>Purchases</h4>
+                    <h4>Compras</h4>
                     <div>
                         {invoice} 
                     </div>
@@ -75,7 +75,7 @@ class Purchase extends Component {
         else{
             return(
                 <div className="invoiceSection">
-                    <h4>Sorry, you didn't purchase any product so far</h4>
+                    <h4>Lo sentimos, no has comprado ningún producto hasta ahora</h4>
                 </div>
             )
         }

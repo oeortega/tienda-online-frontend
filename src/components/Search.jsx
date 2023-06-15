@@ -49,14 +49,14 @@ class Search extends Component {
                     <input
                     onChange={this.handleInputChange.bind(this)}
                     className='search'
-                        placeholder="Search for..."
+                        placeholder="Buscar por..."
                         ref={input => this.search = input}
                         // onChange={this.handleInputChange}
                         // onKeyDown={this.handleInputChange}
                     />
-                    <button className="searchButton" onClick={this.handleInputChange.bind(this)}>search</button>
+                    <button className="searchButton" onClick={this.handleInputChange.bind(this)}>Buscar</button>
                     <div className="sortBox">
-                        <label  htmlFor="SortPrice">Sort</label>
+                        <label  htmlFor="SortPrice">Clasificar</label>
                         <input
                         checked={this.state.isChecked}
                         onChange={this.toggleChange}

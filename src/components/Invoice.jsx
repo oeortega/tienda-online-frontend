@@ -49,8 +49,8 @@ class Invoice extends Component {
             <div className="productInvoiceContainer">
                 <span className="invoiceP">Id: {item.id}</span>
                 <span className="invoiceP">{item.name}</span>
-                <span className="invoiceP">Quant: {item.Invoice_Product.Quantity}</span>
-                <span className="invoiceP">Price: {item.price}€</span>
+                <span className="invoiceP">cuantos: {item.Invoice_Product.Quantity}</span>
+                <span className="invoiceP">Precio: {item.price}€</span>
             </div>
             )
             return <div className="invoiceContainer">
@@ -78,7 +78,7 @@ class Invoice extends Component {
                 <ProfileMenu/>
                 <div className="invoiceSection">
                     
-                    <h4>Invoices</h4>
+                    <h4>Factura</h4>
                     <div>
                         {invoice}
                         
@@ -92,7 +92,7 @@ class Invoice extends Component {
         else{
             return(
                 <div className="invoiceSection">
-                    <h4>Sorry, you didn't purchase any product so far</h4>
+                    <h4>Lo sentimos, no has comprado ningún producto hasta ahora</h4>
                 </div>
             )
         }

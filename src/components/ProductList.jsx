@@ -28,7 +28,7 @@ class ProductList extends Component{
             <h4 className="details">{element.brand}</h4>
             <h1 id="priceTag" className="details">{element.price}€</h1>
             <SimpleModal productDetails={element} productArray={itemList} />
-            <button onClick={()=>this.addBasket(element)}>Add to basket</button>
+            <button onClick={()=>this.addBasket(element)}>Añadir al carrito</button>
         </div>
         )    
     }else{
@@ -41,7 +41,7 @@ class ProductList extends Component{
                 <h4 className="details">{element.brand}</h4>
                 <h1 id="priceTag" className="details">{element.price}€</h1>
                 <SimpleModal productDetails={element} productArray={itemList} />
-                <button onClick={()=>this.addBasket(element)}>Add to basket</button>
+                <button onClick={()=>this.addBasket(element)}>Añadir al carrito</button>
             </div>
             )    
     }

@@ -32,7 +32,7 @@ class Logout extends Component {
         
             <div className="logoutForm">
                 <form noValidate onSubmit={this.onSubmit}>
-                    <h4 className="Logout">Are you sure u want to leave?</h4>
+                    <h4 className="Logout">¿Estás seguro de que quieres irte?</h4>
                     <button className="formButton"  type="submit">
                         Logout
                     </button>
