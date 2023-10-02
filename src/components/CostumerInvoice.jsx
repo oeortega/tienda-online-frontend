@@ -57,8 +57,8 @@ class CostumerInvoice extends Component {
             <div className="productInvoiceContainer">
                 <span className="invoiceP">Id: {item.id}</span>
                 <span className="invoiceP">{item.name}</span>
-                <span className="invoiceP">Quant: {item.Invoice_Product.Quantity}</span>
-                <span className="invoiceP">Price: {item.price}€</span>
+                <span className="invoiceP">cantidad: {item.Invoice_Product.Quantity}</span>
+                <span className="invoiceP">Pricio: {item.price}$</span>
             </div>
             )
             return <div className="invoiceContainer">
@@ -67,7 +67,7 @@ class CostumerInvoice extends Component {
                     <img className='invoiceLogo' src={Logo} alt=""/>
                     <div className="invoiceInfoContainer">
                         <div>
-                        <p className="invoiceP">Invoice number: { element.id }</p>
+                        <p className="invoiceP">Número de factura: { element.id }</p>
                         <p>Date: {date.getDay()}-{date.getMonth()}-{date.getFullYear()}</p>
                         </div>
                         
@@ -75,10 +75,10 @@ class CostumerInvoice extends Component {
                     </div>
                 </div>
                 
-                <p>PRODUCTS</p>
+                <p>PRODUCTOS</p>
                 {product}
-                <p className="invoiceInfoContainer">Total: { element.totalAmount }€</p>  
-                <button>Print</button>
+                <p className="invoiceInfoContainer">Total: { element.totalAmount }$</p>  
+                <button>Imprimir</button>
             </div>
             })
             return(
@@ -86,12 +86,12 @@ class CostumerInvoice extends Component {
                 <ProfileMenu/>
                 <div className="invoiceSection">
                     
-                    <h4>Costumer Invoices</h4>
+                    <h4>Facturas de clientes</h4>
                     <div>
                         <div className="costumerInvoiceSearch">
                             <label className="costumerInvoiceItems" htmlFor="idInput">User Id</label>
                             <input className="costumerInvoiceItems"  ref={input => this.search = input} id="idInput" type="text"/>
-                            <button className="costumerInvoiceItems" onClick={()=>this.findInvoice()}>Find Inv</button>
+                            <button className="costumerInvoiceItems" onClick={()=>this.findInvoice()}>Buscar inversión</button>
                         </div>
                         
                         {invoice}

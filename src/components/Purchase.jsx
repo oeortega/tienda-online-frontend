@@ -36,7 +36,7 @@ class Purchase extends Component {
         const invoicesArray=this.state.userData
         console.log(invoicesArray)
         if(invoicesArray!==[]){
-            //sort the array of pruchases by date
+            //ordenar la matriz de compras por fecha
             invoicesArray.sort((a, b) =>{
                 a=new Date(a.createdAt)
                 b=new Date(b.createdAt)

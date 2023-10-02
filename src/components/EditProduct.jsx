@@ -182,16 +182,16 @@ class EditProduct extends Component {
                 <div className="editProductContainer">
 
                     <input className="costumerInvoiceItems" name="findProduct" ref={input => this.search = input} id="idInput" type="text" placeholder="Find Product by Id" />
-                    <button className="costumerInvoiceItems" onClick={() => this.findProduct()}>Find</button>
-                    <button className="costumerInvoiceItems" onClick={() => this.refresh()}>Refresh</button>
+                    <button className="costumerInvoiceItems" onClick={() => this.findProduct()}>Encontrar</button>
+                    <button className="costumerInvoiceItems" onClick={() => this.refresh()}>Actualizar</button>
                 </div>
                 <div className='editProductForm'>
 
                     <form noValidate onSubmit={this.onSubmit}>
-                        <h1 className="h3 mb-3 font-weight-normal">Create or Edit Product</h1>
+                        <h1 className="h3 mb-3 font-weight-normal">Crear o editar producto</h1>
 
                         <div className="formFields">
-                            <label htmlFor="name">Product Name</label>
+                            <label htmlFor="name">nombre del producto</label>
                             <input
                                 className="Register"
                                 type="text"
@@ -202,7 +202,7 @@ class EditProduct extends Component {
                             />
                         </div>
                         <div className="formFields">
-                            <label htmlFor="brand">Brand</label>
+                            <label htmlFor="brand">Marca</label>
                             <input
                                 className="Register"
                                 type="text"
@@ -213,7 +213,7 @@ class EditProduct extends Component {
                             />
                         </div>
                         <div className="formFields">
-                            <label htmlFor="category">Category</label>
+                            <label htmlFor="category">Categoria</label>
                             <input
                                 className="Register"
                                 type="text"
@@ -224,7 +224,7 @@ class EditProduct extends Component {
                             />
                         </div>
                         <div className="formFields">
-                            <label htmlFor="description">Description</label>
+                            <label htmlFor="description">Descricion</label>
                             <input
                                 className="Register"
                                 type="text"
@@ -236,7 +236,7 @@ class EditProduct extends Component {
                         </div>
 
                         <div className="formFields">
-                            <label htmlFor="price">Product Price</label>
+                            <label htmlFor="price">Precio del producto</label>
                             <input
                                 className="Register"
                                 type="text"
@@ -247,7 +247,7 @@ class EditProduct extends Component {
                             />
                         </div>
                         <div className="formFields">
-                            <label htmlFor="stock">Product Stock</label>
+                            <label htmlFor="stock">Producto Stock</label>
                             <input
                                 className="Register"
                                 type="text"
@@ -272,7 +272,7 @@ class EditProduct extends Component {
                         <button className="formButton"
                             type="submit"
                         >
-                            Submit
+                           Entregar
                             </button>
                     </form>
 

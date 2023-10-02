@@ -115,11 +115,7 @@ class SalesHistory extends Component {
     }
     findYearTotal() {
 
-        // if (this.state.graphOn === true) {
-        //     this.setState({
-        //         graphOn: false
-        //     })
-        // }
+      
         var total = 0
         var totalMonthSalesByYear = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         var inputYear = `${this.number1.value}${this.number2.value}${this.number3.value}${this.number4.value}`
@@ -200,7 +196,7 @@ class SalesHistory extends Component {
                                 <div className="dayContainer">
                                     <input className="historyItems" name="day" ref={input => this.day = input} type="date" placeholder="Find Product by Id" />
                                     <button className="historyItems" onClick={() => this.findDayTotal()}>Encontrar</button>
-                                    <h4>Ventas totales por día: {this.state.totalDay}€</h4>
+                                    <h4>Ventas totales por día: {this.state.totalDay}$</h4>
                                 </div>
                                 <div className="monthContainer">
                                     <input className="historyItems" name="month" ref={input => this.month = input} type="month" placeholder="Find Product by Id" />
@@ -237,7 +233,7 @@ class SalesHistory extends Component {
                                 <div className="dayContainer">
                                     <input className="historyItems" name="day" ref={input => this.day = input} type="date" placeholder="Find Product by Id" />
                                     <button className="historyItems" onClick={() => this.findDayTotal()}>Encontrar</button>
-                                    <h4>Ventas totales por día: {this.state.totalDay}€</h4>
+                                    <h4>Ventas totales por día: {this.state.totalDay}$</h4>
                                 </div>
                                 <div className="monthContainer">
                                     <input className="historyItems" name="month" ref={input => this.month = input} type="month" placeholder="Find Product by Id" />

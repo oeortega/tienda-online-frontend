@@ -94,7 +94,7 @@ class Login extends Component {
                     className="Login"
                     type="text"
                     name="email"
-                    placeholder="Enter your e-mail"
+                    placeholder="Introduce tu correo electrónico"
                     value={this.state.email}
                     onChange={this.onChange}
                   />

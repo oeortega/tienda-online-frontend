@@ -95,7 +95,7 @@ export default function SimpleModal(props) {
                             <h3 >
                                 {props.productDetails.brand} </h3>
                             <h1 >
-                                {props.productDetails.price} € </h1>
+                                {props.productDetails.price} $ </h1>
                         </div>
 
                         <div className="detailContainer" >
@@ -103,10 +103,10 @@ export default function SimpleModal(props) {
                             <p id="simple-modal-description">
                                 {props.productDetails.description}
                             </p>
-                            <button onClick={()=>addBasket(props.productDetails)}>Add to basket</button>
+                            <button onClick={()=>addBasket(props.productDetails)}>añadir al carrito</button>
                         </div>
                         </div>
-                        <h3 className="relatedTitle">RELATED PRODUCTS</h3>
+                        <h3 className="relatedTitle">Productos relacionados</h3>
                         <div className="relatedProducts">
                             
                             <ProductList sendList={related} />

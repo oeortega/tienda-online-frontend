@@ -65,7 +65,7 @@ class Profile extends Component {
                             <span className='Tag'>C.C. tipo: </span>   <span className='data'>{this.state.userData.creditcardType}</span>
                         </div>
                         <div className='dataTag'>
-                            <span className='Tag'>fecha de sesion: </span>   <span className='data'>{date.getDay()}/{date.getMonth()}/{date.getFullYear()}</span>
+                            <span className='Tag'>fecha de creacion: </span>   <span className='data'>{date.getDay()}/{date.getMonth()}/{date.getFullYear()}</span>
                         </div>   
                         
                     </div>
