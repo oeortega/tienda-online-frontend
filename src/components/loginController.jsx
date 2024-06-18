@@ -3,7 +3,7 @@ import { Redirect, BrowserRouter, Switch } from 'react-router-dom';
 
 export const login = loginUser =>{
     return axios
-        .post('http://localhost:3001/auth/login',{
+        .post('https://ec2-34-214-197-252.us-west-2.compute.amazonaws.com/:3001/auth/login',{
             email: loginUser.email,
             password: loginUser.password
         })

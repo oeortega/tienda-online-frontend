@@ -14,7 +14,7 @@ class Profile extends Component {
     }
     componentDidMount() {
         var userId= localStorage.getItem('userId')
-        axios.get(`http://localhost:3001/auth/${userId}`,
+        axios.get(`https://ec2-34-214-197-252.us-west-2.compute.amazonaws.com/:3001/auth/${userId}`,
         {headers: {
             Accept : 'application/json',
             Authorization: `Bearer ${localStorage.getItem('token')}`

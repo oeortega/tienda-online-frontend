@@ -45,7 +45,7 @@ class ProductList extends Component{
     console.log("el objeto productos es: "+typeof(productsObject))
     console.log("el monto total es: "+totalAmount)
     
-    axios.post('http://localhost:3001/inv/order',{
+    axios.post('https://ec2-34-214-197-252.us-west-2.compute.amazonaws.com/:3001/inv/order',{
         totalAmount: totalAmount,
         products: productsObject
     },{headers: {

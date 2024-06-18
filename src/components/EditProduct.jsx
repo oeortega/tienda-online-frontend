@@ -50,7 +50,7 @@ class EditProduct extends Component {
         
         if (this.state.productId === '') {
             
-            axios.post('http://localhost:3001/product/create', {
+            axios.post('https://ec2-34-214-197-252.us-west-2.compute.amazonaws.com/:3001/product/create', {
                     name: newProduct.name,
                     brand: newProduct.brand,
                     description: newProduct.description,

@@ -23,7 +23,7 @@ class Search extends Component {
     handleInputChange(e){
         e.preventDefault()
         console.log("entra en la funcion")
-            axios.get('http://localhost:3001/product/search/'+this.search.value)
+            axios.get('https://ec2-34-214-197-252.us-west-2.compute.amazonaws.com/:3001/product/search/'+this.search.value)
             .then(element => {
               console.log("query realizada")
               let items=element.data

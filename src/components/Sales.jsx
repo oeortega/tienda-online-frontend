@@ -18,7 +18,7 @@ class Sales extends Component {
     }
     componentDidMount() {
 
-        axios.get('http://localhost:3001/product/allProduct')
+        axios.get('https://ec2-34-214-197-252.us-west-2.compute.amazonaws.com/:3001/product/allProduct')
             .then(item => {
 
                 var array = item.data;
